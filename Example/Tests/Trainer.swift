@@ -9,7 +9,7 @@
 import Foundation
 import RealmSwift
 
-final class Trainer: Object {
+@objcMembers final class Trainer: Object {
   dynamic var identifier = UUID().uuidString
   dynamic var pokedex:Pokedex?
   var pokemons = List<Pokemon>()

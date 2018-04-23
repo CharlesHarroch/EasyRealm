@@ -9,8 +9,8 @@
 import Foundation
 import RealmSwift
 
-final class Pokedex:Object {
-  dynamic var identifier = UUID().uuidString
+@objcMembers final class Pokedex:Object {
+    dynamic var identifier = UUID().uuidString
   
   override static func primaryKey() -> String? {
     return "identifier"

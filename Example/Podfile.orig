@@ -1,5 +1,9 @@
 use_frameworks!
+<<<<<<< HEAD
+platform :ios, '8.0'
+=======
 platform :ios, '10.0'
+>>>>>>> 0e5005ac0f92213f438a6ba8d7d53ce4d4457ecb
 
 target 'EasyRealm_Example' do
   pod 'EasyRealm', :path => '../'

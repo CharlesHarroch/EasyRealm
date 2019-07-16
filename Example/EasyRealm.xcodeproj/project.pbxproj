@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3B27B1C91EBDDE30008BF579 /* TestQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B27B1C81EBDDE30008BF579 /* TestQuery.swift */; };
+		3B7956D122170A0C00246717 /* TestUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7956CF221709E000246717 /* TestUpdate.swift */; };
 		3B7CD02B1E76DFAF00011116 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CD01E1E76DF6400011116 /* Pokemon.swift */; };
 		3B7CD02C1E76DFAF00011116 /* PokemonHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CD01F1E76DF6400011116 /* PokemonHelp.swift */; };
 		3B7CD02D1E76DFAF00011116 /* TestDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CD0201E76DF6400011116 /* TestDelete.swift */; };
@@ -40,6 +41,7 @@
 		061E59C21F2F2720DFCDC799 /* Pods-EasyRealm_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyRealm_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasyRealm_Example/Pods-EasyRealm_Example.release.xcconfig"; sourceTree = "<group>"; };
 		0A4DA23DD187DD2E8EEA00C8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3B27B1C81EBDDE30008BF579 /* TestQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestQuery.swift; sourceTree = "<group>"; };
+		3B7956CF221709E000246717 /* TestUpdate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUpdate.swift; sourceTree = "<group>"; };
 		3B7CD01E1E76DF6400011116 /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		3B7CD01F1E76DF6400011116 /* PokemonHelp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonHelp.swift; sourceTree = "<group>"; };
 		3B7CD0201E76DF6400011116 /* TestDelete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestDelete.swift; sourceTree = "<group>"; };
@@ -62,7 +64,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		962F9CCB6FC7DAF0C47B9A39 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B6C45787A877C3285FE205B0 /* Pods-EasyRealm_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyRealm_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasyRealm_Tests/Pods-EasyRealm_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CEE03CDEB69479C449935B09 /* EasyRealm.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EasyRealm.podspec; path = ../EasyRealm.podspec; sourceTree = "<group>"; };
+		CEE03CDEB69479C449935B09 /* EasyRealm.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EasyRealm.podspec; path = ../EasyRealm.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DD2EF73E42A8D43D39780307 /* Pods_EasyRealm_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyRealm_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED34CAE00F1E0583F8416DB8 /* Pods-EasyRealm_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyRealm_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasyRealm_Example/Pods-EasyRealm_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -141,6 +143,7 @@
 				3B27B1C81EBDDE30008BF579 /* TestQuery.swift */,
 				3B7CD0211E76DF6400011116 /* TestEdit.swift */,
 				3B7CD0221E76DF6400011116 /* TestSave.swift */,
+				3B7956CF221709E000246717 /* TestUpdate.swift */,
 				3B7CD0231E76DF6400011116 /* TestVariable.swift */,
 				3BBFC7601EB7AE3A0003B466 /* TestMeasure.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
@@ -234,16 +237,30 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
+<<<<<<< HEAD
 				LastUpgradeCheck = 0930;
+=======
+				LastUpgradeCheck = 1010;
+>>>>>>> 0e5005ac0f92213f438a6ba8d7d53ce4d4457ecb
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+<<<<<<< HEAD
 						LastSwiftMigration = 0930;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0930;
+=======
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Manual;
+					};
+					607FACE41AFB9204008FA782 = {
+						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 1010;
+						ProvisioningStyle = Manual;
+>>>>>>> 0e5005ac0f92213f438a6ba8d7d53ce4d4457ecb
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -367,6 +384,7 @@
 				3BC33AF61EAB98930019E72C /* Trainer.swift in Sources */,
 				3B7CD02C1E76DFAF00011116 /* PokemonHelp.swift in Sources */,
 				3B7CD0301E76DFAF00011116 /* TestVariable.swift in Sources */,
+				3B7956D122170A0C00246717 /* TestUpdate.swift in Sources */,
 				3B7CD02D1E76DFAF00011116 /* TestDelete.swift in Sources */,
 				3B7CD02F1E76DFAF00011116 /* TestSave.swift in Sources */,
 				3B7CD02B1E76DFAF00011116 /* Pokemon.swift in Sources */,
@@ -457,7 +475,11 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+<<<<<<< HEAD
 				SWIFT_VERSION = 4.0;
+=======
+				SWIFT_VERSION = 4.2;
+>>>>>>> 0e5005ac0f92213f438a6ba8d7d53ce4d4457ecb
 			};
 			name = Debug;
 		};
@@ -505,7 +527,11 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+<<<<<<< HEAD
 				SWIFT_VERSION = 4.0;
+=======
+				SWIFT_VERSION = 4.2;
+>>>>>>> 0e5005ac0f92213f438a6ba8d7d53ce4d4457ecb
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -515,13 +541,20 @@
 			baseConfigurationReference = ED34CAE00F1E0583F8416DB8 /* Pods-EasyRealm_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = EasyRealm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+<<<<<<< HEAD
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+=======
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+>>>>>>> 0e5005ac0f92213f438a6ba8d7d53ce4d4457ecb
 			};
 			name = Debug;
 		};
@@ -530,13 +563,20 @@
 			baseConfigurationReference = 061E59C21F2F2720DFCDC799 /* Pods-EasyRealm_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = EasyRealm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+<<<<<<< HEAD
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+=======
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+>>>>>>> 0e5005ac0f92213f438a6ba8d7d53ce4d4457ecb
 			};
 			name = Release;
 		};
@@ -544,7 +584,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5AC0DD2B71C5BD7C3E4B045D /* Pods-EasyRealm_Tests.debug.xcconfig */;
 			buildSettings = {
+<<<<<<< HEAD
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+=======
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+>>>>>>> 0e5005ac0f92213f438a6ba8d7d53ce4d4457ecb
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -553,8 +599,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+<<<<<<< HEAD
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+=======
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+>>>>>>> 0e5005ac0f92213f438a6ba8d7d53ce4d4457ecb
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyRealm_Example.app/EasyRealm_Example";
 			};
 			name = Debug;
@@ -563,13 +614,23 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B6C45787A877C3285FE205B0 /* Pods-EasyRealm_Tests.release.xcconfig */;
 			buildSettings = {
+<<<<<<< HEAD
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+=======
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+>>>>>>> 0e5005ac0f92213f438a6ba8d7d53ce4d4457ecb
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+<<<<<<< HEAD
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+=======
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+>>>>>>> 0e5005ac0f92213f438a6ba8d7d53ce4d4457ecb
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyRealm_Example.app/EasyRealm_Example";
 			};
 			name = Release;

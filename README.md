@@ -10,7 +10,7 @@
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Platform](https://img.shields.io/cocoapods/p/EasyRealm.svg?style=flat)](http://cocoapods.org/pods/EasyRealm)
 [![Build Status](https://travis-ci.org/PoissonBallon/EasyRealm.svg?branch=master)](https://travis-ci.org/PoissonBallon/EasyRealm)
-[![Swift 4](https://img.shields.io/badge/Language-Swift%203-orange.svg)](https://developer.apple.com/swift/)
+[![Swift 4.2](https://img.shields.io/badge/Language-Swift%204.2-orange.svg)](https://developer.apple.com/swift/)
 [![codecov](https://codecov.io/gh/PoissonBallon/EasyRealm/branch/master/graph/badge.svg)](https://codecov.io/gh/PoissonBallon/EasyRealm)
 [![License](https://img.shields.io/cocoapods/l/EasyRealm.svg?style=flat)](http://cocoapods.org/pods/EasyRealm)
 
@@ -18,10 +18,11 @@ EasyRealm is a micro-framework (less than 200 LOC) that helps you use Realm.
 
 ## Versions guides
 
-| Swift     | Realm    | EasyRealm |
-|-----------|----------|-----------|
-| 3.0       | >= 2.4   | 2.0.1     |
-| 3.2 / 4.0 | >= 3.0.0 | >= 3.0.0  |
+| Swift     | Realm     | EasyRealm |
+|-----------|-----------|-----------|
+| 3.0       | >= 2.4    | 2.0.1     |
+| 3.2 / 4.0 | >= 3.1.0  | >= 3.0.0  |
+| 4.2       | >= 3.10   | >= 3.4.0  |
 
 ## Keys Features
 
@@ -132,7 +133,7 @@ it, simply add the following line to your Podfile:
 #### CocoaPods
 ```ruby
 use_frameworks!
-pod "EasyRealm", '~> 2.0.0'
+pod "EasyRealm", '~> 3.2.0'
 ```
 
 #### Carthage

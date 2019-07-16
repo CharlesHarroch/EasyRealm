@@ -33,7 +33,6 @@ class TestSave: XCTestCase {
     let numberOfPokeball = try! Pokeball.er.all()
     XCTAssertEqual(self.testPokemon.count, numberOfPokemon.count)
     XCTAssertEqual(2, numberOfPokeball.count)
-
   }
 
   func testSaveManaged() {

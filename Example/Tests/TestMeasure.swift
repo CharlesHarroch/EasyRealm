@@ -34,7 +34,7 @@ class TestMeasure: XCTestCase {
       trainer.pokemons.append(HelpPokemon.generateCapturedRandomPokemon())
       trainer.pokedex = pokedex
       try! realm.write {
-        realm.add(trainer, update: true)
+        realm.add(trainer, update: .all)
       }
     }
   }

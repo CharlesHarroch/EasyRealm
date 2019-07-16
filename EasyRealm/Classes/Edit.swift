@@ -18,7 +18,7 @@ extension EasyRealm where T:Object {
 
 fileprivate extension EasyRealm where T:Object {
 
-  fileprivate func managed_edit(withoutNotifying:[NotificationToken]?, _ closure: @escaping (_ T:T) -> Void) throws {
+  func managed_edit(withoutNotifying:[NotificationToken]?, _ closure: @escaping (_ T:T) -> Void) throws {
     guard let rq = EasyRealmQueue() else { throw EasyRealmError.RealmQueueCantBeCreate }
     let ref = ThreadSafeReference(to: self.base)
     try rq.queue.sync {
@@ -35,7 +35,7 @@ fileprivate extension EasyRealm where T:Object {
     }
   }
   
-  fileprivate func unmanaged_dit(_ closure: @escaping (_ T:T) -> Void) throws  {
+  func unmanaged_dit(_ closure: @escaping (_ T:T) -> Void) throws  {
     closure(self.base)
   }
 }

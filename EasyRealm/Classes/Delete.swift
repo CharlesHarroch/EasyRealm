@@ -17,7 +17,7 @@ public enum EasyRealmDeleteMethod {
 
 public extension EasyRealmStatic where T:Object {
   
-  public func deleteAll() throws {
+  func deleteAll() throws {
     let realm = try Realm()
     try realm.write {
       realm.delete(realm.objects(self.baseType))
@@ -28,7 +28,7 @@ public extension EasyRealmStatic where T:Object {
 
 public extension EasyRealm where T:Object {
   
-  public func delete(with method:EasyRealmDeleteMethod = .simple) throws {
+  func delete(with method:EasyRealmDeleteMethod = .simple) throws {
     switch method {
     case .simple:     self.isManaged ? try managedSimpleDelete() : try unmanagedSimpleDelete()
     case .cascade:    self.isManaged ? try managedCascadeDelete() : try unmanagedCascadeDelete()
@@ -42,7 +42,7 @@ public extension EasyRealm where T:Object {
 //Normal Way
 fileprivate extension EasyRealm where T: Object {
   
-  fileprivate func managedSimpleDelete() throws {
+  func managedSimpleDelete() throws {
     guard let rq = EasyRealmQueue() else { throw EasyRealmError.RealmQueueCantBeCreate }
     let ref = ThreadSafeReference(to: self.base)
     try rq.queue.sync {
@@ -53,7 +53,7 @@ fileprivate extension EasyRealm where T: Object {
     }
   }
   
-  fileprivate func unmanagedSimpleDelete() throws  {
+  func unmanagedSimpleDelete() throws  {
     guard let rq = EasyRealmQueue() else { throw EasyRealmError.RealmQueueCantBeCreate }
     guard let key = T.primaryKey() else { throw EasyRealmError.ObjectCantBeResolved }
     
@@ -67,7 +67,7 @@ fileprivate extension EasyRealm where T: Object {
     }
   }
   
-  fileprivate static func simpleDelete(this object:Object, in queue:EasyRealmQueue) {
+  static func simpleDelete(this object:Object, in queue:EasyRealmQueue) {
     queue.realm.delete(object)
   }
   
@@ -77,7 +77,7 @@ fileprivate extension EasyRealm where T: Object {
 //Cascade Way
 fileprivate extension EasyRealm where T: Object {
   
-  fileprivate func managedCascadeDelete() throws {
+  func managedCascadeDelete() throws {
     guard let rq = EasyRealmQueue() else { throw EasyRealmError.RealmQueueCantBeCreate }
     let ref = ThreadSafeReference(to: self.base)
     try rq.queue.sync {
@@ -88,7 +88,7 @@ fileprivate extension EasyRealm where T: Object {
     }
   }
   
-  fileprivate func unmanagedCascadeDelete() throws  {
+  func unmanagedCascadeDelete() throws  {
     guard let rq = EasyRealmQueue() else { throw EasyRealmError.RealmQueueCantBeCreate }
     guard let key = T.primaryKey() else { throw EasyRealmError.ObjectCantBeResolved }
     
@@ -103,7 +103,7 @@ fileprivate extension EasyRealm where T: Object {
   }
   
   
-  fileprivate static func cascadeDelete(this object:Object, in queue:EasyRealmQueue) {
+  static func cascadeDelete(this object:Object, in queue:EasyRealmQueue) {
     for property in object.objectSchema.properties {
       guard let value = object.value(forKey: property.name) else { continue }
       if let object = value as? Object {

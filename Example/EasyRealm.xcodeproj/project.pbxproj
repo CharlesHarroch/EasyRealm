@@ -237,30 +237,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-<<<<<<< HEAD
-				LastUpgradeCheck = 0930;
-=======
 				LastUpgradeCheck = 1010;
->>>>>>> 0e5005ac0f92213f438a6ba8d7d53ce4d4457ecb
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-<<<<<<< HEAD
-						LastSwiftMigration = 0930;
-					};
-					607FACE41AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0930;
-=======
-						LastSwiftMigration = 0820;
-						ProvisioningStyle = Manual;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 1010;
 						ProvisioningStyle = Manual;
->>>>>>> 0e5005ac0f92213f438a6ba8d7d53ce4d4457ecb
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -329,7 +312,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-EasyRealm_Example/Pods-EasyRealm_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-EasyRealm_Example/Pods-EasyRealm_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/EasyRealm/EasyRealm.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
@@ -342,7 +325,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EasyRealm_Example/Pods-EasyRealm_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EasyRealm_Example/Pods-EasyRealm_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8B9E29F1A378E57DB2A2813E /* [CP] Check Pods Manifest.lock */ = {
@@ -475,11 +458,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-<<<<<<< HEAD
-				SWIFT_VERSION = 4.0;
-=======
 				SWIFT_VERSION = 4.2;
->>>>>>> 0e5005ac0f92213f438a6ba8d7d53ce4d4457ecb
 			};
 			name = Debug;
 		};
@@ -527,11 +506,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-<<<<<<< HEAD
-				SWIFT_VERSION = 4.0;
-=======
 				SWIFT_VERSION = 4.2;
->>>>>>> 0e5005ac0f92213f438a6ba8d7d53ce4d4457ecb
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -548,13 +523,9 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-<<<<<<< HEAD
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-=======
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.2;
->>>>>>> 0e5005ac0f92213f438a6ba8d7d53ce4d4457ecb
 			};
 			name = Debug;
 		};
@@ -570,13 +541,9 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-<<<<<<< HEAD
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-=======
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.2;
->>>>>>> 0e5005ac0f92213f438a6ba8d7d53ce4d4457ecb
 			};
 			name = Release;
 		};
@@ -584,13 +551,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5AC0DD2B71C5BD7C3E4B045D /* Pods-EasyRealm_Tests.debug.xcconfig */;
 			buildSettings = {
-<<<<<<< HEAD
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-=======
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
->>>>>>> 0e5005ac0f92213f438a6ba8d7d53ce4d4457ecb
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -599,13 +563,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-<<<<<<< HEAD
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-=======
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.2;
->>>>>>> 0e5005ac0f92213f438a6ba8d7d53ce4d4457ecb
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyRealm_Example.app/EasyRealm_Example";
 			};
 			name = Debug;
@@ -614,23 +574,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B6C45787A877C3285FE205B0 /* Pods-EasyRealm_Tests.release.xcconfig */;
 			buildSettings = {
-<<<<<<< HEAD
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-=======
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
->>>>>>> 0e5005ac0f92213f438a6ba8d7d53ce4d4457ecb
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-<<<<<<< HEAD
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-=======
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.2;
->>>>>>> 0e5005ac0f92213f438a6ba8d7d53ce4d4457ecb
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyRealm_Example.app/EasyRealm_Example";
 			};
 			name = Release;

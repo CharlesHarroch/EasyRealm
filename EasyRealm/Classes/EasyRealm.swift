@@ -32,10 +32,10 @@ public protocol EasyRealmCompatible {
 }
 
 public extension EasyRealmCompatible {
-  public var er: EasyRealm<Self> {
+  var er: EasyRealm<Self> {
     get { return EasyRealm(self) }
   }
-  public static var er: EasyRealmStatic<Self> {
+  static var er: EasyRealmStatic<Self> {
     get { return EasyRealmStatic(Self.self) }
   }
 }

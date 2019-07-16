@@ -32,7 +32,7 @@ extension EasyRealm where T: Object {
 
 
 fileprivate extension Object {
-  fileprivate func easyDetached() -> Self {
+  func easyDetached() -> Self {
     let detached = type(of: self).init()
     for property in objectSchema.properties {
       guard let value = value(forKey: property.name) else { continue }

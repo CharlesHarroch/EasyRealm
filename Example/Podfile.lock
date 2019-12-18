@@ -1,17 +1,17 @@
 PODS:
-  - EasyRealm (3.4.0):
-    - RealmSwift (~> 3.10)
-  - Realm (3.17.1):
-    - Realm/Headers (= 3.17.1)
-  - Realm/Headers (3.17.1)
-  - RealmSwift (3.17.1):
-    - Realm (= 3.17.1)
+  - EasyRealm (3.5.0):
+    - RealmSwift
+  - Realm (4.2.0):
+    - Realm/Headers (= 4.2.0)
+  - Realm/Headers (4.2.0)
+  - RealmSwift (4.2.0):
+    - Realm (= 4.2.0)
 
 DEPENDENCIES:
   - EasyRealm (from `../`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - Realm
     - RealmSwift
 
@@ -20,10 +20,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  EasyRealm: fd1fddb725830f8dcc0d92904eab250f9e3779d9
-  Realm: c204f1a890f07dea43b14132a6aad118c054b8f2
-  RealmSwift: 4d3c9233544b9cd08a8913e0872b9038eb99b054
+  EasyRealm: 4462814069ccde646c393e2bc9526e41b2528790
+  Realm: 24f62307291e35ca9ba69f4d5e7214142543b12d
+  RealmSwift: eec89a12ff5ff09f365519c64591ab297acbbb40
 
 PODFILE CHECKSUM: 73d2683af2c7ac771647afb875fecd5c780c7a9f
 
-COCOAPODS: 1.7.4
+COCOAPODS: 1.8.4

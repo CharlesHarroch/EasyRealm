@@ -126,7 +126,6 @@
 			buildConfigurationList = 3B4CBD9E1E8803000044BCAA /* Build configuration list for PBXNativeTarget "EasyRealm" */;
 			buildPhases = (
 				3B4CBD921E8803000044BCAA /* Frameworks */,
-				3B4CBDB91E8807200044BCAA /* Carthage */,
 				3B4CBD911E8803000044BCAA /* Sources */,
 				3B4CBD931E8803000044BCAA /* Headers */,
 				3B4CBD941E8803000044BCAA /* Resources */,
@@ -183,23 +182,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		3B4CBDB91E8807200044BCAA /* Carthage */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = Carthage;
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3B4CBD911E8803000044BCAA /* Sources */ = {

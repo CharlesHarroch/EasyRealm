@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EasyRealm'
-  s.version          = '3.5.1'
+  s.version          = '3.5.2'
   s.summary          = 'EasyRealm is a micro-framework that helps you use Realm.'
 
   # This description is used to generate tags and improve search results.
@@ -29,12 +29,13 @@ EasyRealm is a micro-framework (less than 200 LOC) that helps you use Realm.
   s.social_media_url = 'https://twitter.com/poissonballon'
 
 
-  s.ios.deployment_target = '9.0'
-  s.osx.deployment_target = '10.9'
+  s.ios.deployment_target = '11.4'
+  s.osx.deployment_target = '11.9'
   s.tvos.deployment_target = '9.0'
   s.watchos.deployment_target = '2.0'
 
   s.source_files = 'EasyRealm/Classes/**/*.swift'
   s.swift_version = '5.1'
   s.dependency 'RealmSwift'
+  
 end

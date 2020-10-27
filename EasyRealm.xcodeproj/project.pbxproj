@@ -3,13 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		3B4CBD9B1E8803000044BCAA /* EasyRealm.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B4CBD991E8803000044BCAA /* EasyRealm.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3B4CBDC11E880B250044BCAA /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B4CBDBB1E8807A20044BCAA /* Realm.framework */; };
-		3B4CBDC21E880B250044BCAA /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B4CBDBC1E8807A20044BCAA /* RealmSwift.framework */; };
 		3B4CBDCC1E880B580044BCAA /* EasyRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CBDC31E880B580044BCAA /* EasyRealm.swift */; };
 		3B760B311EBA8FF50012B56A /* Delete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B760B291EBA8FF50012B56A /* Delete.swift */; };
 		3B760B321EBA8FF50012B56A /* Variable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B760B2A1EBA8FF50012B56A /* Variable.swift */; };
@@ -19,16 +17,14 @@
 		3B760B361EBA8FF50012B56A /* Save.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B760B2E1EBA8FF50012B56A /* Save.swift */; };
 		3B760B371EBA8FF50012B56A /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B760B2F1EBA8FF50012B56A /* Error.swift */; };
 		3B760B381EBA8FF50012B56A /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B760B301EBA8FF50012B56A /* Query.swift */; };
+		56D79EA125483D9800B171BC /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 56D79EA025483D9800B171BC /* Realm */; };
+		56D79EA325483D9800B171BC /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 56D79EA225483D9800B171BC /* RealmSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3B4CBD961E8803000044BCAA /* EasyRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4CBD991E8803000044BCAA /* EasyRealm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyRealm.h; sourceTree = "<group>"; };
 		3B4CBD9A1E8803000044BCAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3B4CBDB51E8806DC0044BCAA /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = ../Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
-		3B4CBDB61E8806DC0044BCAA /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = ../Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
-		3B4CBDBB1E8807A20044BCAA /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
-		3B4CBDBC1E8807A20044BCAA /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
 		3B4CBDC31E880B580044BCAA /* EasyRealm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyRealm.swift; sourceTree = "<group>"; };
 		3B760B291EBA8FF50012B56A /* Delete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Delete.swift; sourceTree = "<group>"; };
 		3B760B2A1EBA8FF50012B56A /* Variable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Variable.swift; sourceTree = "<group>"; };
@@ -38,6 +34,7 @@
 		3B760B2E1EBA8FF50012B56A /* Save.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Save.swift; sourceTree = "<group>"; };
 		3B760B2F1EBA8FF50012B56A /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 		3B760B301EBA8FF50012B56A /* Query.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Query.swift; sourceTree = "<group>"; };
+		56D79E9825483C6900B171BC /* RealmSwift */ = {isa = PBXFileReference; lastKnownFileType = folder; name = RealmSwift; path = Example/Pods/RealmSwift/RealmSwift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,8 +42,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B4CBDC11E880B250044BCAA /* Realm.framework in Frameworks */,
-				3B4CBDC21E880B250044BCAA /* RealmSwift.framework in Frameworks */,
+				56D79EA325483D9800B171BC /* RealmSwift in Frameworks */,
+				56D79EA125483D9800B171BC /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,10 +96,7 @@
 		3B4CBDB41E8806DC0044BCAA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3B4CBDBB1E8807A20044BCAA /* Realm.framework */,
-				3B4CBDBC1E8807A20044BCAA /* RealmSwift.framework */,
-				3B4CBDB51E8806DC0044BCAA /* Realm.framework */,
-				3B4CBDB61E8806DC0044BCAA /* RealmSwift.framework */,
+				56D79E9825483C6900B171BC /* RealmSwift */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -135,6 +129,10 @@
 			dependencies = (
 			);
 			name = EasyRealm;
+			packageProductDependencies = (
+				56D79EA025483D9800B171BC /* Realm */,
+				56D79EA225483D9800B171BC /* RealmSwift */,
+			);
 			productName = EasyRealm;
 			productReference = 3B4CBD961E8803000044BCAA /* EasyRealm.framework */;
 			productType = "com.apple.product-type.framework";
@@ -164,6 +162,9 @@
 				en,
 			);
 			mainGroup = 3B4CBD8C1E8803000044BCAA;
+			packageReferences = (
+				56D79E9F25483D9800B171BC /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+			);
 			productRefGroup = 3B4CBD971E8803000044BCAA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -312,7 +313,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -325,6 +327,7 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 2;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -335,7 +338,13 @@
 				);
 				INFOPLIST_FILE = EasyRealm/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 2;
 				PRODUCT_BUNDLE_IDENTIFIER = vialatte.EasyRealm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -348,6 +357,7 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 2;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -358,7 +368,13 @@
 				);
 				INFOPLIST_FILE = EasyRealm/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 2;
 				PRODUCT_BUNDLE_IDENTIFIER = vialatte.EasyRealm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -389,6 +405,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		56D79E9F25483D9800B171BC /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		56D79EA025483D9800B171BC /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 56D79E9F25483D9800B171BC /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = Realm;
+		};
+		56D79EA225483D9800B171BC /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 56D79E9F25483D9800B171BC /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3B4CBD8D1E8803000044BCAA /* Project object */;
 }
